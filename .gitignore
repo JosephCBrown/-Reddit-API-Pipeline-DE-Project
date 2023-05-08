@@ -1,0 +1,12 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment
+venv/
+
+# Ignore API credentials file
+config.py
+
+# Ignore extracted data file
+*.csv
