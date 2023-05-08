@@ -25,7 +25,7 @@ response = requests.get(url, headers=headers, params=params)
 data = response.json()
 
 
-# to test in the commandline
+# to test in the CLI
 """ for post in data['data']['children']:
     date_time = datetime.fromtimestamp(post['data']['created_utc']).strftime('%Y-%m-%d %H:%M:%S')
     print(f"Author: {post['data']['author']}")
